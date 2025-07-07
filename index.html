@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Daily News</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Global Daily News</h1>
+        <nav>
+            <button onclick="filterNews('all')">All</button>
+            <button onclick="filterNews('world')">World</button>
+            <button onclick="filterNews('technology')">Technology</button>
+            <button onclick="filterNews('sports')">Sports</button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section id="news-container">
+            <!-- News articles -->
+            <article class="news world">
+                <h2>UN meets over climate change</h2>
+                <p>Leaders around the world gather to discuss urgent action.</p>
+            </article>
+
+            <article class="news technology">
+                <h2>New AI revolutionizes language learning</h2>
+                <p>This breakthrough may change how we learn forever.</p>
+            </article>
+
+            <article class="news sports">
+                <h2>World Cup Qualifiers Update</h2>
+                <p>Latest scores and highlights from today's matches.</p>
+            </article>
+
+            <article class="news world">
+                <h2>Peace talks resume in region</h2>
+                <p>Efforts continue to stabilize conflict zones globally.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Global Daily News</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<article class="news world">
+    <h2>UN meets over climate change</h2>
+    <img src="images/sample-news.jpg" alt="UN meeting image" style="width:100%; max-width:600px;">
+    <p>Leaders around the world gather to discuss urgent action.</p>
+</article>
